@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE 1</title>
+</head>
+<body>
+    
+    <h1>MEU PRIMEIRO TEXTO EM HTML!</h1> 
+  
+    <b><p><i>Bom dia!, meu nome é: NIcolas</i></p></b>
+  
+   TENHO 17 ANOS E QUERO CURSAR FRONT END!
+  
+   <h1>APRENDIZADOS</h1>
+  
+  INTERNET
+  
+  ALGORITMOS
+  
+  HTML
+  
+  <p style="color: coral;">CSS</p>
+  
+  <p style="color: coral;">BOOSTSTRAP</p>
+
+  <P style="color: coral;">JAVASCRIPT</P>
+
+      
+</body>
+</html>
