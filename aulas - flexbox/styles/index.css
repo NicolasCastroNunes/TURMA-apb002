@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.pai{
+    width: 200px;
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+    margin: 20px;
+}
+
+#pai1{
+    justify-content: start ;
+    align-items: center;
+
+}
+
+#pai2 {
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.filho{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.f1{
+    background-color: aqua;
+}
+
+.f2{
+    background-color: blanchedalmond;
+}
+
+.f3{
+    background-color: blue;
+}
+
+.f4{
+    background-color: cadetblue;
+}
