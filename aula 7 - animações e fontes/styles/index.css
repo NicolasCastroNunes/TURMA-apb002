@@ -1,0 +1,61 @@
+@keyframes animacao {
+    0%{
+        background-color: aquamarine;
+    }
+
+    50%{
+        background-color: antiquewhite;
+    }
+
+    100%{
+        background-color: black;
+    }
+}
+
+@font-face {
+    font-family: Yazakura;
+    src: url(../fonts/yozakura/Yozakura\ font\ with\ lowercase\ is\ here.txt);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    font-family: Yazakura, Arial;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#caixa1{
+    background-color: aquamarine;
+    transition: 0.5s;
+}
+
+#caixa1:hover{
+
+    border-radius: 100%;
+    transition: 0.5;
+    animation: 1s animacao infinite;
+}
+
+#caixa2:active{
+    background-color: black;
+    width: 80%;
+    transition: 0.5;
+}
+
+#caixa2{
+    transition: 0.5;
+    background-color: bisque;
+}
+
+#caixa3{
+    background-color: black;
+}
