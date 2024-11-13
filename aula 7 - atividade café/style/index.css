@@ -43,28 +43,26 @@ main h1 {
     color: #333;
 }
 
-img{
+.img-texto{
     margin: 20px;
    height: 500px;
+   width: 690px;
+   align-items: center;
    box-shadow: 10px 10px 20px black;
    
 }
 
+.img-logo{
+    height: 50px;
+    width: 50px;
+}
+
 #banner{
-    width: 100%;
+    text-align: center;
     display: flex;
 }
 
-#logo{
-    width: 5%;
-    height: 10%;
-}
 
-#cafe{
-    width: 5%;
-    height: 15%;
-    float: right;
-}
 
 h1{
     text-align: center;
