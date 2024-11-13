@@ -46,7 +46,7 @@ main h1 {
 .img-texto{
     margin: 20px;
    height: 500px;
-   width: 690px;
+   width: 700px;
    align-items: center;
    box-shadow: 10px 10px 20px black;
    
@@ -55,6 +55,8 @@ main h1 {
 .img-logo{
     height: 50px;
     width: 50px;
+    float: left;
+    margin-left: 10px;
 }
 
 #banner{
