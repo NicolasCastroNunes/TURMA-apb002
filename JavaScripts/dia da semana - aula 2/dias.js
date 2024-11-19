@@ -27,6 +27,6 @@ if (numero >= 1 && numero <= 7) {
         diaSemana = "Domingo";
         break;
     }
-    
+  }
     
     alert("O dia correspondente ao número " + numero + " é " + diaSemana + ".")
