@@ -1,28 +1,35 @@
-function testes(){
-    //contador = 0
-    //while(contador <3){
-      //  alert(`QUE DAORA! fiz ${contador+1}vezes`)
-    //contador++
- //}
-        for(var i = 0;i < 3;i++){
-            alert(`QUE MANEIRO!!' FIZ ${i+1}vezes`)
-        }
-
+function testes() {
+    for (var i = 0; i < 3; i++) {
+        alert(`QUE MANEIRO!! FIZ ${i + 1} VEZES`); 
     }
+}
 
-//testes()
+//testes();
 
-function carregarCatalogo(){
-  for (let i = 0;i <7;i++)
+function carregarCatalogo() {
+    var livros = [
+        ['livros/download.jpeg', 'As crônicas de Nárnia- Movie'],
+        ['livros/narnia3.jpeg', 'As Crônicas de Nárnia - O sobrinho do Mago'],
+        ['livros/narni2.jpeg', 'As Crônicas de Nárnia - Book'],
+        ['livros/o pequeno prince.jpeg ', 'O Pequeno Principe'],
+        ['livros/a cabana.webp', 'A Cabana'],
+        ['livros/vento.webp','O menino que descobriu o Vento'],
+        ['livros/silencio.webp', 'O poder do silêncio'],
+        
+    ];
+
+    
+    livros.forEach(cadaLivro => { 
         document.getElementById('catalogo').innerHTML += ` 
         <div class="livro">
-            <img src="livros/download.jpeg" alt="">
-            <h4>AS CRONICAS DE NÁRNIA</h4>
+            <img src="${cadaLivro[0]}" alt="">
+            <h4>${cadaLivro[1]}</h4>
             
             <button>Adicionar
                 <img src="images/plus.svg" alt="">
             </button>
-        </div>`
-    }
+        </div>`;
+    });
+}
 
-carregarCatalogo()
+carregarCatalogo();
