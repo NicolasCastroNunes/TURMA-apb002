@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --Cor1: rgb(121, 113, 113);
+    --Cor2:rgb(65, 63, 63) ;
+    --Branco: rgb(214 214 214); 
+}
+
+header, footer{
+    width: 100%;
+    background-color: var(--Cor1);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo-img{
+    width: 30px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+#logo{
+    display: flex;
+    gap: 20px;
+}
+
+
+#catalogo{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--Branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.livro{
+    width: 200px;
+    background-color: var(--Cor2);
+    color: var(--Branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+button{
+    display: flex;
+    padding-top: 5px;
+}
+.livro img{
+    width: 80%;
+}
