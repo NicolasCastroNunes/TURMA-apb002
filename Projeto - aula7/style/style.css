@@ -5,60 +5,98 @@
 }
 
 body{
+    
+    background-image: url('../images/undertale.png');
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    
+    gap: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(179, 179, 179, 0.336);
+    background-color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-a{
-    margin: 20px;
+#corTexto{
+    background-color: rgb(32, 31, 31);
+    box-shadow: 10px 10px 10px white;
+    padding: 20px;
+    margin: 30px;
     color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+a{
+    margin: 2px;
+    color: rgba(255, 255, 255, 0.425);
     text-decoration: none;
 }
 
-h1{
+#Titulo1 {
+    margin-left: 56vh;
+    justify-content: center;
     text-align: center;
+    background-color: rgb(54, 56, 56);
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+
 }
 
-#logo-img{
-    width: 30px;
+
+
+h1 {
+    color:  #FF6347;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 #logo{
-    display: flex;
-    gap: 20px;
+    box-shadow: 10px 10px 10px black;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    width: 50px;
+    background-color: aquamarine;
+    
 }
 
-nav{
+.nav{
+   align-items: end;
+    text-align: right;
+    gap: 50px;
     display: flex;
-    gap: 10px;
 }
 
 .jogo img{
-    width: 80%;
+    gap: 100px;
+    width: 60%;
 }
 
-button{
-    display: flex;
-    padding-top: 5px;
-}
-
-#logo2 img{
-    height: 50px;
-    width: 50px;
-    background-color: rgb(116, 109, 109);
-    border-radius: 50px;
-    margin-bottom: 30px;
-}
 
 img{
-    border-radius: 50px;
-    height: 80px;
-    width: 80px;
    
+    gap: 200px;
+    border-radius: 20px;
+    height: 150px;
+    width: 350px;
+    align-items: center;
+   
+}
+
+div.jogo{
+    width: 30%;
+    height: 40%;
+    display: flex;
+    gap: 20px;
 }
 
 
@@ -75,6 +113,7 @@ header, footer{
 }
 
 section{
+    gap: 100px;
     margin: 50px;
     padding: 20px;
     width: 90%;
@@ -88,21 +127,53 @@ p{
 }
 
 h3{
+    height: 30px;
     text-align: center;
     margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+    height: 30px;
+    text-align: right;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 
 #catalogo{
+    
+    box-shadow: 10px 10px 10px black;
     width: 80%;
     margin: 10px auto;
     padding: 20px;
-    color: white;
-    background-color: rgb(52, 72, 75);
+    color: rgb(61, 59, 59);
+    background-color: rgb(168, 176, 177);
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
     flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+
+button {
+
+    background-color: beige;
+    height: 35px;
+    width: 70px;
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
 }
 
 
