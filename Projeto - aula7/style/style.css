@@ -6,7 +6,7 @@
 
 body{
     
-    background-image: url('../images/undertale.png');
+    background-image: url('../image/background2.jpg');
     background-size: cover;  
     background-position: center;  
     background-attachment: fixed; 
@@ -31,32 +31,51 @@ body{
     border-radius: 20px;
 }
 a{
+    position: relative;
     margin: 2px;
     color: rgba(255, 255, 255, 0.425);
     text-decoration: none;
 }
 
+nav a::after{
+    content: "";
+    width: 0%;
+    height:1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
 #Titulo1 {
+
     margin-left: 56vh;
     justify-content: center;
     text-align: center;
     background-color: rgb(54, 56, 56);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 40%;
     display: flex;
     align-items: center;
-
 }
 
 
+#phan{
+    margin-left: 20vh;
+}
 
 h1 {
     color:  #FF6347;
     text-align: center;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 #logo{
@@ -66,11 +85,10 @@ h1 {
     margin-bottom: 30px;
     width: 50px;
     background-color: aquamarine;
-    
 }
 
 .nav{
-   align-items: end;
+    align-items: end;
     text-align: right;
     gap: 50px;
     display: flex;
@@ -83,7 +101,8 @@ h1 {
 
 
 img{
-   
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
     gap: 200px;
     border-radius: 20px;
     height: 150px;
@@ -93,10 +112,13 @@ img{
 }
 
 div.jogo{
+   
+    flex-direction: column;
+    align-items: center;
     width: 30%;
     height: 40%;
     display: flex;
-    gap: 20px;
+    gap: 5px;
 }
 
 
@@ -134,6 +156,7 @@ h3{
 }
 
 h4{
+
     height: 30px;
     text-align: right;
     margin: 15px;
@@ -143,30 +166,33 @@ h4{
 
 
 #catalogo{
-    
+    text-decoration-line: underline;
+    text-decoration-style: solid;
     box-shadow: 10px 10px 10px black;
     width: 80%;
     margin: 10px auto;
     padding: 20px;
     color: rgb(61, 59, 59);
-    background-color: rgb(168, 176, 177);
+    background-color: rgb(115, 119, 119);
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     flex-wrap: wrap;
     border-radius: 10px;
     
 }
 
-button {
 
-    background-color: beige;
+button {
+    border-bottom-width: 2px;
+    background-color: rgb(86, 89, 92);
     height: 35px;
     width: 70px;
     display: flex;
     padding-top: 5px;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .container {
