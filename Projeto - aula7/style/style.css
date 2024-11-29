@@ -11,11 +11,6 @@ body{
     background-position: center;  
     background-attachment: fixed; 
     background-repeat: no-repeat; 
-
-    transition: 0.6s ease-in-out;
-    animation: infinite 0.5s;
-    animation-name: inherit;
-    
     gap: 50px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
@@ -45,6 +40,7 @@ a{
 
 
 nav a::after{
+
     content: "";
     width: 0%;
     height:1px;
@@ -56,6 +52,7 @@ nav a::after{
 }
 
 nav a:hover::after{
+    
     transform: rotate3d(1.1) ;
     background-color:inherit;
     width: 100%;
