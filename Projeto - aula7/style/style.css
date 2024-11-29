@@ -11,8 +11,6 @@ body{
     background-position: center;  
     background-attachment: fixed; 
     background-repeat: no-repeat; 
-
-transition: 0.6s ease-in-out;
     
     gap: 50px;
     font-family: Arial, Helvetica, sans-serif;
