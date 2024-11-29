@@ -11,11 +11,10 @@ body{
     background-position: center;  
     background-attachment: fixed; 
     background-repeat: no-repeat; 
-   
+
     transition: 0.6s ease-in-out;
     animation: infinite 0.5s;
     animation-name: inherit;
-
     
     gap: 50px;
     font-family: Arial, Helvetica, sans-serif;
