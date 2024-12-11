@@ -17,7 +17,7 @@ function carregarCatalogo() {
             <img src="${cadaFilme[0]}" alt="">
             <h4>${cadaFilme[1]}</h4>
             
-            <div class="container">
+            <div class="botao">
             <button>Reservar</button>
             </div>
         </div>

@@ -8,12 +8,27 @@ body{
     background-color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
     background-image: url('../image/robo.jpg');
-    background-size: cover;  
+    background-size: cover;
     background-position: center;  
     background-attachment: fixed; 
     background-repeat: no-repeat; 
 }
 
+video{
+    float: right;
+    height: 400px;
+    margin: 20px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trailer1{
+
+    color: wheat;
+    text-decoration: line-through;
+}
 
  h2, h5{
     
@@ -35,13 +50,20 @@ body{
 
 }
 
-h4{
-   
+.h4, h4{
+    text-decoration: overline;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px 5px 5px rgb(92, 90, 90);
     margin: 20px;
     text-align: center;
     text-decoration: none;
 }
+
+.h4, h4 {
+    
+    text-decoration: overline;
+}
+
 
 h1{
     text-shadow: 2px 2px 2px #4d4a4a;
@@ -60,28 +82,40 @@ h1{
     box-shadow: 10px 10px 10px black;
 }
 
+
+
 #exclu{
-    color: aliceblue;
+    color: rgb(78, 80, 82);
     float: right;
     margin: 20px;
     display: flex;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-button {
-    border-radius: 20px;
-    background-color: aliceblue;
-    color: rgb(0, 0, 0);
-    border-bottom-width: 2px;
-    background-color:inherit;
-    height: 35px;
-    width: 70px;
+
+.botao:not(:disabled) {
+    border-radius: 5px;
+    font-family: serif;
     display: flex;
-    padding-top: 5px;
-    align-items: center;
     justify-content: center;
-    
+    border-radius: 20px;
+    transition: 1.0s ease-in-out;
+    animation: inherit;
+    background-color: rgba(0, 0, 0, 0.125);
 }
+
+.botao:hover::after {
+    content: "";
+    position: absolute;
+    top: 5;
+    left: 5;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 153, 31, 0.26);
+    cursor: pointer ;
+    border-radius: 40px;
+}
+
 .container{
     border-radius: 20px;
     align-items: center;
@@ -89,10 +123,14 @@ button {
     justify-content: center;
 }
 
-button:hover{
+.botao:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
     transition: 0.2s ease-in-out;
     transform: scale(1.1);
-    background-color:inherit;
+    background:inherit;
+    border-radius: 20x;
+    background-color: green;
     animation: 1.0s inherit repeat;
 }
 
@@ -127,7 +165,7 @@ img{
     justify-content: center;
     border-radius: 20px;
     animation: inherit;
-    transition: 1.0s ease-in-out;
+    transition: 0.5s ease-in-out;
     width: 200px;
    
 }
@@ -140,6 +178,21 @@ img:hover{
 p{
     margin: 20px;
     text-align: justify;
+}
+
+#exclusivo {
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-left: 1450px;
+    background-color: #948b8b;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+    justify-content: right;
+    display: flex;
+    gap: 20px;
+    border-radius: 4px;
+    color: aliceblue;
 }
 
 section{
