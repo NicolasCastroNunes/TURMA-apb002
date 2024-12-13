@@ -12,10 +12,12 @@
             background-color: rgb(240, 240, 240);
             font-family: 'Times New Roman', Times, serif;
             margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
         h1{
-     
             background-color: rgb(175, 170, 170);
             color: rgb(255, 255, 255);
             text-align: center;
@@ -35,6 +37,8 @@
         }
 
         h3{
+            width: 30%;
+
             background-color: rgb(223, 135, 135);
             margin: 30px;
             font-size: 20px;
@@ -46,7 +50,6 @@
             transition: color 0.5s;
             cursor: pointer;
             box-shadow: 10px 10px 10px rgba(156, 59, 59, 0.404);
-        
             color: rgb(3, 3, 3);
             text-decoration: overline;
             text-align: center;
@@ -73,6 +76,7 @@
             height: 200px;
             justify-content: center;
             display: flex;
+    
             margin: 20px;
             box-shadow: 10px 10px 10px rgba(156, 59, 59, 0.404);
             border-radius: 10px;
@@ -85,36 +89,45 @@
         }
 
         
-    div{
-        background-position-x: center;
-            display: flex;
-            flex-wrap: wrap;
+        #imagens{
+            margin-top: 80px;
             justify-content: space-between;
-            margin-top: 50px;
+            display: flex;
+            gap: 100px;
             align-items: center;
             margin-bottom: 50px;   
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            border: 2px solid rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            box-shadow: 10px 10px 10px rgba(156, 59, 59, 0.404);
-            width: 50px;
+
             height: 40px;
+        }
+
+        #recei{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size:50px;
+            padding: 20px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
   
-    
+
     <h1>COMIDAS</h1>
-    <img src="image/coxinha.jpeg" alt="">
-    <img src="image/bolo.jpeg" alt="">
+
+   <div id="imagens">
+    <img src="image/coxinha.jpeg" alt=""><h2>⇾</h2>
+    <img src="image/bolo.jpeg" alt=""> <h2>⇾</h2>
     <img src="image/sucoduva.jpeg" alt="">
+    </div>
     
 
 
     <header>
+        <div id="recei">
         <h1>RECEITAS </h1>
+        </div>
     </header>
 
     <script src="script/script.js"></script>

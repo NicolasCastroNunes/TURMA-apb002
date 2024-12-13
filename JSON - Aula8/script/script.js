@@ -29,7 +29,8 @@ function logar(){
          }
          if(login){
             alert('Login efetuado')
-            window.location = 'https://www.google.com.br/?hl=pt-BR'
+            localStorage.setItem('nome',nome_digitado)
+            window.location = '/home.html'
         }else{
             document.querySelector("#resposta").innerHTML = "Usuario e senha incorreto"
         }
