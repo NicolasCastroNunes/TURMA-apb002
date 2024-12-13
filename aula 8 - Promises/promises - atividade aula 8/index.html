@@ -7,38 +7,115 @@
 
     <style>
         body{
-            background-color: rgb(184, 171, 151);
+            background-image:url(image/back.webp);  
+            background-size: 100%;
+            background-color: rgb(240, 240, 240);
             font-family: 'Times New Roman', Times, serif;
             margin: 10px;
         }
         
         h1{
+     
+            background-color: rgb(175, 170, 170);
             color: rgb(255, 255, 255);
             text-align: center;
-            margin-top: 10px;
-            text-decoration: line-through;
+            font-size:50px;
+            padding: 20px;
+            
+            border-radius: 10px;
+            
+        }
+        
+        h1:hover{
+            background-color: rgb(156, 59, 59);
+            color: rgb(255, 255, 255);
+            transform: 0.9s inherit;
+            transition: 0.9s ease-in-out;
+            box-shadow: 10px 10px 10px rgba(156, 59, 59, 0.404);cursor: pointer;
         }
 
         h3{
-            color: rgb(141, 5, 5);
+            background-color: rgb(223, 135, 135);
+            margin: 30px;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); 
+            transition: color 0.5s;
+            cursor: pointer;
+            box-shadow: 10px 10px 10px rgba(156, 59, 59, 0.404);
+        
+            color: rgb(3, 3, 3);
             text-decoration: overline;
             text-align: center;
             margin-top: 10px;
         }
+        h3:hover{
+            text-shadow: 10px 2px 4px rgb(255, 255, 255) ;
+            background-color: rgb(71, 68, 68);
+            color: rgb(255, 255, 255);
+            transform: 0.9s inherit;
+            transition: 0.9s ease-in-out;
+        }
 
         h4{
-            color: rgb(0, 0, 0);
+            
+            color: rgba(31, 97, 94, 0.479);
             text-decoration: underline;
             text-align: center;
             margin-top: 10px;
         }
+
+        img{
+            width: 300px;
+            height: 200px;
+            justify-content: center;
+            display: flex;
+            margin: 20px;
+            box-shadow: 10px 10px 10px rgba(156, 59, 59, 0.404);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        img:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+
+        
+    div{
+        background-position-x: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+            align-items: center;
+            margin-bottom: 50px;   
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px rgba(156, 59, 59, 0.404);
+            width: 50px;
+            height: 40px;
+        }
     </style>
 </head>
 <body>
+  
+    
+    <h1>COMIDAS</h1>
+    <img src="image/coxinha.jpeg" alt="">
+    <img src="image/bolo.jpeg" alt="">
+    <img src="image/sucoduva.jpeg" alt="">
+    
+
+
     <header>
         <h1>RECEITAS </h1>
     </header>
-    
 
     <script src="script/script.js"></script>
 </body>
