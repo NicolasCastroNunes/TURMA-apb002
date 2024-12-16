@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Página 2 ABAIXO */
+#pag2{
+    background-image: url(https://images8.alphacoders.com/135/1354012.png);
+    background-size: 100%;
+    background-position-x: center ;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;    
+    background-color: rgba(61, 60, 60, 0.432);
+    margin: 50px;
+    border-radius: 5px;
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+    margin-left: 10px;
+}
+
+#loginAQ{
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: 1.0s ease-in-out;
+    border-radius: 5px;
+    background-color: rgb(61, 60, 60);
+    display: flex;
+}
+
+a:hover{
+    transform: scale(2.5);
+    background-color: rgb(255, 255, 255);
+    color:rgba(24, 92, 92, 0.603);;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: 1.0s ease-in-out;
+    transform: scale(1.0);
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#areas{
+    float: right;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header, footer{
+    margin-top: 5px;
+    background-color:rgba(10, 10, 10, 0.664);
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#titulo{
+    margin-left: 400px;
+    padding: 15px;
+    text-shadow: 1px 1px 20px white;
+    border-radius: 5px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.664);
+    text-align: center;
+}
+
+h3{
+    text-shadow: 2px 2px 10px black;
+    margin-top: -100px;
+    margin-left: -99px;
+    font-size: 30px;
+    color: rgb(70, 68, 68);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+/* Página 1 ABAIXO */
+#pag1{
+    background-image: url(https://i0.wp.com/studioghibli.com.br/wp-content/uploads/2008/07/Studio-Ghibli-Logo.jpg?fit=1920%2C1040&ssl=1);
+    background-position-x: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+
+}
+
+#nome{
+    width: 200px;
+    height: 40px;
+    margin-top: 2vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#senha{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: darkslategray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#logar{
+    cursor: pointer;
+    right: 10px;
+    bottom: 10px;
+    font-size: 10px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    bottom: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: darkslategray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#resposta{
+    font-size: 10px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: darkslategray;
+    font-size: 15px;
+
+}
+
+#DadosAQ{
+    margin-top: 33vh;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(10, 10, 10, 0.664);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(24, 92, 92, 0.603);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login{
+    font-size: 50px;
+    color: darkslategray;
+    text-align: center;
+}
