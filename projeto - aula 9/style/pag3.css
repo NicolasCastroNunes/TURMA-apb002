@@ -1,0 +1,85 @@
+#creator{
+    background-image: url(../images/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+#tres{
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+#headPag3{
+    margin-top: 5px;
+    background-color: rgba(10, 10, 10, 0.664);
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#name3{ 
+    margin: 0;
+}
+
+#criador{
+    
+    margin-top: 100px;
+    margin-right: 180px;
+    background-color: rgba(31, 30, 29, 0.678);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 330px;
+    max-width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+#pag3{
+    margin-left: 400px;
+    background-color: rgba(27, 27, 27, 0.671);
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+    transition: all 0.3s ease-in-out;
+}
+
+#criador1{
+    margin-left: -5px;
+    width: 100%;
+}
+
+#homenagem{
+    color: white;
+    text-align: left;
+    padding: 70px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 40%;
+    max-width: 300px;
+    transition: all 0.3s ease-in-out;
+}
